@@ -74,9 +74,11 @@ public class Graph {
 
         int i = 1 ;
         int min = range ;
+        System.out.println(exclude.toString());
         while(i<=this.nb_sommets){
             if((i!=to)&&(min>graph.get(i+"|"+to))&&(!exclude.contains(i))){
                 min = graph.get(i+"|"+to) ;
+                //System.out.println(min);
             }
             i++;
         }

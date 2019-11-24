@@ -12,14 +12,18 @@ public class explorateur {
 
     public explorateur(int nb){
         this.g = new Graph(nb) ;
-        this.S = new sortie_entre_estimateur() ;
+        //this.S = new sortie_entre_estimateur() ;
+        this.S = new bestEstim() ;
         racine = new Path(this.S,this.g) ;
         all_cas.addValue(racine); ;
 
     }
-    public void afficher(){
+    public void afficher() throws Exception{
         g.afficher();
+        g.into_file();
     }
+
+
     public Path explore() throws Exception{
             Path Z ;
             Path fils ;
@@ -31,7 +35,7 @@ public class explorateur {
             while((!this.all_cas.getlist().isEmpty())&&(!found)){
 
                 Z= all_cas.getlist().removeFirst() ;
-                System.out.println(Z.total());
+               // System.out.println(Z.total());
                 if(Z.solution()){
                     found = true ;
                     return Z ;

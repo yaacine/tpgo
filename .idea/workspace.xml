@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5404674-2ae8-4480-821c-c5f59ec60afe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/graph.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/tpgo/bestEstim.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bestEstim.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph.txt" beforeDir="false" afterPath="$PROJECT_DIR$/graph.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/tpgo/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tpgo/Graph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tpgo/explorateur.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tpgo/explorateur.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/tpgo/graphTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tpgo/graphTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tpgo/sortie_entre_estimateur.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tpgo/sortie_entre_estimateur.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/explorateur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/explorateur.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/graphTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sortie_entre_estimateur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sortie_entre_estimateur.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
